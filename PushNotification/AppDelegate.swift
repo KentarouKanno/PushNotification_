@@ -26,7 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         BITHockeyManager.shared().configure(withIdentifier: "c088275b7e2c48759169ce30fe6f9da9")
-        // Do some additional configuration if needed here
         BITHockeyManager.shared().start()
         BITHockeyManager.shared().authenticator.authenticateInstallation()
 
