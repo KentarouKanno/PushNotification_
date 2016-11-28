@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // BITRISE Test 1
+        // BITRISE Test 2
     }
 
     override func didReceiveMemoryWarning() {
