@@ -49,9 +49,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         LogPush.application(application, didFailToRegisterForRemoteNotificationsWithError: error)
     }
     
-    func application(_ application: UIApplication,
-                     didReceiveRemoteNotification userInfo: [AnyHashable : Any],
-                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+    
+        print("application:didReceiveRemoteNotification: " + userInfo.description);
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    
         LogPush.application(application, didReceiveRemoteNotification: userInfo,
                             fetchCompletionHandler: completionHandler)
     }

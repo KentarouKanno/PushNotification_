@@ -2,7 +2,7 @@ PODS:
   - HockeySDK (4.1.2):
     - HockeySDK/DefaultLib (= 4.1.2)
   - HockeySDK/DefaultLib (4.1.2)
-  - LogPush (2.0.0)
+  - LogPush (2.1.0)
 
 DEPENDENCIES:
   - HockeySDK (~> 4.1.2)
@@ -10,7 +10,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   HockeySDK: c7523379550a4305cefc1cdfa7b5f9a5a3538180
-  LogPush: 51a269be02ea6e969f1661975dac93801e85386a
+  LogPush: f52b33e62a2e1b9198a764ba498b73ef53b362af
 
 PODFILE CHECKSUM: 688223e1f0169f58fdd6167a321d168aed19c044
 

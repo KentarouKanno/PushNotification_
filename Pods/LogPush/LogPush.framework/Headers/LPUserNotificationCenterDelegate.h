@@ -16,7 +16,13 @@
 // clang-format on
 
 /**
+ * Another UNUserNotificationCenterDelegate.
+ */
+@property(nonatomic, weak, nullable) id<UNUserNotificationCenterDelegate>
+    delegate;
+
+/**
  * A shared instance.
  */
-+ (LPUserNotificationCenterDelegate *)sharedInstance;
++ (nullable LPUserNotificationCenterDelegate *)sharedInstance;
 @end
